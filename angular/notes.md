@@ -45,7 +45,7 @@ Pre-requisetes: HTML, CSS, JavaScript, TypeScript Sections:-
 								it is a syntatical sugar, when we use this it in-directly class the property Binding,
 								for simplicity assume f-string in python language.
 		
-	**	Property Binding: **
+	**Property Binding:**
 							With property binding we bind a propert of a DOM element,
 							syntax: [property ex: src, ]="value/variable defined in .ts file", one-way data binding, (.ts files to HTMl file (component to view)),
 		
@@ -113,12 +113,12 @@ Pre-requisetes: HTML, CSS, JavaScript, TypeScript Sections:-
 		**Custom pipes:** ...
 
 		
-**5. Building Re-usable Components: Pass data, Raise custom events, Apply styles, Shadow DOM, View encapsulation.
-**
+**5. Building Re-usable Components: Pass data, Raise custom events, Apply styles, Shadow DOM, View encapsulation.**
+
 		**Component API:** 
-					In order to make a component more reusable, we want to addd a bunch of input and output properties. 
-					We use input properties to pass input or state to a component and we use output properties to raise an events from these custom components.
-					The combination of input and output properties for a component, make up for what we call the public API of that component, 
+						In order to make a component more reusable, we want to addd a bunch of input and output properties. 
+						We use input properties to pass input or state to a component and we use output properties to raise an events from these custom components.
+						The combination of input and output properties for a component, make up for what we call the public API of that component, 
 		
 		**Input Properties:**
 				(All this steps have to be done in custom or created component.)
